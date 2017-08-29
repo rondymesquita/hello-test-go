@@ -5,8 +5,7 @@ import(
 	. "github.com/onsi/gomega"
 	"testing"
 )
-
-func TestCalculator(t *testing.T) {
+func TestCalculator4(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "Calculator Suite")
 }
